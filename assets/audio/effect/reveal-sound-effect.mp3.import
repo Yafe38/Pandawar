@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/reveal-sound-effect.mp3-25c1a859d2894388ff16560555d2d9aa.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/effect/reveal-sound-effect.mp3"
+dest_files=[ "res://.import/reveal-sound-effect.mp3-25c1a859d2894388ff16560555d2d9aa.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
