@@ -1,0 +1,102 @@
+[gd_resource type="AnimationNodeBlendTree" load_steps=15 format=2]
+
+[sub_resource type="AnimationNodeAnimation" id=27]
+animation = "die"
+
+[sub_resource type="AnimationNodeTransition" id=3]
+input_count = 2
+input_0/name = "false"
+input_0/auto_advance = false
+input_1/name = "true"
+input_1/auto_advance = false
+
+[sub_resource type="AnimationNodeTransition" id=23]
+input_count = 2
+input_0/name = "false"
+input_0/auto_advance = false
+input_1/name = "true"
+input_1/auto_advance = false
+
+[sub_resource type="AnimationNodeAnimation" id=4]
+animation = "idle"
+
+[sub_resource type="AnimationNodeTransition" id=5]
+input_count = 2
+input_0/name = "ground"
+input_0/auto_advance = false
+input_1/name = "air"
+input_1/auto_advance = false
+
+[sub_resource type="AnimationNodeTransition" id=28]
+input_count = 2
+input_0/name = "false"
+input_0/auto_advance = false
+input_1/name = "true"
+input_1/auto_advance = false
+
+[sub_resource type="AnimationNodeAnimation" id=24]
+animation = "jetpack"
+
+[sub_resource type="AnimationNodeAnimation" id=6]
+animation = "jump"
+
+[sub_resource type="AnimationNodeTransition" id=7]
+input_count = 3
+input_0/name = "idle"
+input_0/auto_advance = false
+input_1/name = "run"
+input_1/auto_advance = false
+input_2/name = "roll"
+input_2/auto_advance = false
+
+[sub_resource type="AnimationNodeAnimation" id=29]
+animation = "roll"
+
+[sub_resource type="AnimationNodeAnimation" id=8]
+animation = "run"
+
+[sub_resource type="AnimationNodeAnimation" id=9]
+animation = "run_gun"
+
+[sub_resource type="AnimationNodeAnimation" id=25]
+animation = "shot"
+
+[sub_resource type="AnimationNodeTransition" id=26]
+input_count = 2
+input_0/name = "false"
+input_0/auto_advance = false
+input_1/name = "true"
+input_1/auto_advance = false
+
+[resource]
+graph_offset = Vector2( -987, 4 )
+nodes/die/node = SubResource( 27 )
+nodes/die/position = Vector2( 620, 480 )
+nodes/has_gun/node = SubResource( 3 )
+nodes/has_gun/position = Vector2( -360, 380 )
+nodes/has_jetpack/node = SubResource( 23 )
+nodes/has_jetpack/position = Vector2( 100, 440 )
+nodes/idle/node = SubResource( 4 )
+nodes/idle/position = Vector2( -360, 180 )
+nodes/in_air/node = SubResource( 5 )
+nodes/in_air/position = Vector2( 300, 260 )
+nodes/is_dead/node = SubResource( 28 )
+nodes/is_dead/position = Vector2( 900, 300 )
+nodes/jetpack/node = SubResource( 24 )
+nodes/jetpack/position = Vector2( -160, 540 )
+nodes/jump/node = SubResource( 6 )
+nodes/jump/position = Vector2( -160, 420 )
+nodes/movement/node = SubResource( 7 )
+nodes/movement/position = Vector2( 40, 240 )
+nodes/output/position = Vector2( 1140, 260 )
+nodes/roll/node = SubResource( 29 )
+nodes/roll/position = Vector2( -360, 60 )
+nodes/run/node = SubResource( 8 )
+nodes/run/position = Vector2( -820, 300 )
+nodes/run_gun/node = SubResource( 9 )
+nodes/run_gun/position = Vector2( -820, 500 )
+nodes/shoot/node = SubResource( 25 )
+nodes/shoot/position = Vector2( 340, 440 )
+nodes/shoots/node = SubResource( 26 )
+nodes/shoots/position = Vector2( 620, 260 )
+node_connections = [ "output", 0, "is_dead", "is_dead", 0, "shoots", "is_dead", 1, "die", "in_air", 0, "movement", "in_air", 1, "has_jetpack", "shoots", 0, "in_air", "shoots", 1, "shoot", "movement", 0, "idle", "movement", 1, "has_gun", "movement", 2, "roll", "has_gun", 0, "run", "has_gun", 1, "run_gun", "has_jetpack", 0, "jump", "has_jetpack", 1, "jetpack" ]

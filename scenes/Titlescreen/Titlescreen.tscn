@@ -1,0 +1,640 @@
+[gd_scene load_steps=125 format=2]
+
+[ext_resource path="res://assets/img/title_background.jpg" type="Texture" id=1]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Attack_005.png" type="Texture" id=2]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_004.png" type="Texture" id=3]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_008.png" type="Texture" id=4]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Die_003.png" type="Texture" id=5]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_000.png" type="Texture" id=6]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_009.png" type="Texture" id=7]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_001.png" type="Texture" id=8]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Die_005.png" type="Texture" id=9]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_007.png" type="Texture" id=10]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_003.png" type="Texture" id=11]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_010.png" type="Texture" id=12]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Attack_001.png" type="Texture" id=13]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Attack_002.png" type="Texture" id=14]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Die_001.png" type="Texture" id=15]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_011.png" type="Texture" id=16]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Attack_004.png" type="Texture" id=17]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_006.png" type="Texture" id=18]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_005.png" type="Texture" id=19]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Idle_002.png" type="Texture" id=20]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Attack_000.png" type="Texture" id=21]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Die_000.png" type="Texture" id=22]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Attack_003.png" type="Texture" id=23]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Die_002.png" type="Texture" id=24]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Die_004.png" type="Texture" id=25]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Die_009.png" type="Texture" id=26]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Dizzy_000.png" type="Texture" id=27]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Die_007.png" type="Texture" id=28]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Dizzy_001.png" type="Texture" id=29]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Die_006.png" type="Texture" id=30]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Die_008.png" type="Texture" id=31]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Run_007.png" type="Texture" id=32]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Roll_004.png" type="Texture" id=33]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Shot_000.png" type="Texture" id=34]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Run_003.png" type="Texture" id=35]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Shot_002.png" type="Texture" id=36]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_008.png" type="Texture" id=37]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_010.png" type="Texture" id=38]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Roll_002.png" type="Texture" id=39]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Run_006.png" type="Texture" id=40]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Run_009.png" type="Texture" id=41]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Shot_003.png" type="Texture" id=42]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/RunWithGun_007.png" type="Texture" id=43]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/RunWithGun_006.png" type="Texture" id=44]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Run_002.png" type="Texture" id=45]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_009.png" type="Texture" id=46]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/RunWithGun_009.png" type="Texture" id=47]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Shot_001.png" type="Texture" id=48]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Run_004.png" type="Texture" id=49]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_006.png" type="Texture" id=50]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Hurt_004.png" type="Texture" id=51]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Dizzy_002.png" type="Texture" id=52]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Run_008.png" type="Texture" id=53]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jetpack_005.png" type="Texture" id=54]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jetpack_004.png" type="Texture" id=55]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_005.png" type="Texture" id=56]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_002.png" type="Texture" id=57]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jetpack_003.png" type="Texture" id=58]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jetpack_006.png" type="Texture" id=59]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jetpack_007.png" type="Texture" id=60]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Roll_005.png" type="Texture" id=61]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/RunWithGun_005.png" type="Texture" id=62]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jump_004.png" type="Texture" id=63]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jump_003.png" type="Texture" id=64]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jump_002.png" type="Texture" id=65]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Run_005.png" type="Texture" id=66]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/RunWithGun_000.png" type="Texture" id=67]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/RunWithGun_004.png" type="Texture" id=68]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_000.png" type="Texture" id=69]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_004.png" type="Texture" id=70]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_003.png" type="Texture" id=71]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Dizzy_003.png" type="Texture" id=72]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_011.png" type="Texture" id=73]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jump_001.png" type="Texture" id=74]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Run_000.png" type="Texture" id=75]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_001.png" type="Texture" id=76]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Shot_005.png" type="Texture" id=77]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Walk_007.png" type="Texture" id=78]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Shot_004.png" type="Texture" id=79]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jump_000.png" type="Texture" id=80]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jetpack_001.png" type="Texture" id=81]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Hurt_003.png" type="Texture" id=82]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jetpack_002.png" type="Texture" id=83]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Dizzy_004.png" type="Texture" id=84]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Dizzy_005.png" type="Texture" id=85]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/RunWithGun_008.png" type="Texture" id=86]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Run_001.png" type="Texture" id=87]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Hurt_001.png" type="Texture" id=88]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/RunWithGun_003.png" type="Texture" id=89]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jump_005.png" type="Texture" id=90]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Roll_000.png" type="Texture" id=91]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Roll_001.png" type="Texture" id=92]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/RunWithGun_002.png" type="Texture" id=93]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Roll_003.png" type="Texture" id=94]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/RunWithGun_001.png" type="Texture" id=95]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Hurt_000.png" type="Texture" id=96]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Hurt_002.png" type="Texture" id=97]
+[ext_resource path="res://assets/Panda Game Character Sprites/Game Sprites/Jetpack_000.png" type="Texture" id=98]
+[ext_resource path="res://assets/Panda Game Character Sprites/elements/Rockets/ROCKET0001.png" type="Texture" id=99]
+[ext_resource path="res://assets/Panda Game Character Sprites/elements/Rockets/ROCKET0002.png" type="Texture" id=100]
+[ext_resource path="res://assets/Panda Game Character Sprites/elements/Rockets/ROCKET0000.png" type="Texture" id=101]
+[ext_resource path="res://scenes/Titlescreen/Rocket.gd" type="Script" id=102]
+[ext_resource path="res://scenes/Titlescreen/Titlescreen.gd" type="Script" id=103]
+[ext_resource path="res://assets/img/title_text.png" type="Texture" id=104]
+[ext_resource path="res://assets/fonts/Roboto-Black.ttf" type="DynamicFontData" id=105]
+[ext_resource path="res://assets/img/title_background_ohno.jpg" type="Texture" id=106]
+[ext_resource path="res://assets/audio/effect/explosion.mp3" type="AudioStream" id=107]
+[ext_resource path="res://assets/audio/effect/reveal-sound-effect.mp3" type="AudioStream" id=108]
+[ext_resource path="res://assets/audio/effect/fire-sound-effect.mp3" type="AudioStream" id=109]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 6 ), ExtResource( 8 ), ExtResource( 20 ), ExtResource( 11 ), ExtResource( 3 ), ExtResource( 19 ), ExtResource( 18 ), ExtResource( 10 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 12 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "idle",
+"speed": 6.0
+}, {
+"frames": [ ExtResource( 91 ), ExtResource( 92 ), ExtResource( 39 ), ExtResource( 94 ), ExtResource( 33 ), ExtResource( 61 ) ],
+"loop": false,
+"name": "roll",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 23 ), ExtResource( 17 ), ExtResource( 2 ), ExtResource( 21 ) ],
+"loop": false,
+"name": "attack",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 96 ), ExtResource( 88 ), ExtResource( 97 ), ExtResource( 82 ), ExtResource( 51 ) ],
+"loop": false,
+"name": "hurt",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 69 ), ExtResource( 76 ), ExtResource( 57 ), ExtResource( 71 ), ExtResource( 70 ), ExtResource( 56 ), ExtResource( 50 ), ExtResource( 78 ), ExtResource( 37 ), ExtResource( 46 ), ExtResource( 38 ), ExtResource( 73 ) ],
+"loop": true,
+"name": "walk",
+"speed": 16.0
+}, {
+"frames": [ ExtResource( 27 ), ExtResource( 29 ), ExtResource( 52 ), ExtResource( 72 ), ExtResource( 84 ), ExtResource( 85 ) ],
+"loop": true,
+"name": "stunt",
+"speed": 7.0
+}, {
+"frames": [ ExtResource( 22 ), ExtResource( 15 ), ExtResource( 24 ), ExtResource( 5 ), ExtResource( 25 ), ExtResource( 9 ), ExtResource( 30 ), ExtResource( 28 ), ExtResource( 31 ), ExtResource( 26 ) ],
+"loop": false,
+"name": "die",
+"speed": 16.0
+}, {
+"frames": [ ExtResource( 75 ), ExtResource( 87 ), ExtResource( 45 ), ExtResource( 35 ), ExtResource( 49 ), ExtResource( 66 ), ExtResource( 40 ), ExtResource( 32 ), ExtResource( 53 ), ExtResource( 41 ) ],
+"loop": true,
+"name": "run",
+"speed": 24.0
+}, {
+"frames": [ ExtResource( 34 ), ExtResource( 48 ), ExtResource( 36 ), ExtResource( 42 ), ExtResource( 79 ), ExtResource( 77 ), ExtResource( 34 ) ],
+"loop": false,
+"name": "shot",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 67 ), ExtResource( 95 ), ExtResource( 93 ), ExtResource( 89 ), ExtResource( 68 ), ExtResource( 62 ), ExtResource( 44 ), ExtResource( 43 ), ExtResource( 86 ), ExtResource( 47 ) ],
+"loop": true,
+"name": "run_gun",
+"speed": 16.0
+}, {
+"frames": [ ExtResource( 80 ), ExtResource( 74 ), ExtResource( 65 ), ExtResource( 64 ), ExtResource( 63 ), ExtResource( 90 ) ],
+"loop": false,
+"name": "jump",
+"speed": 24.0
+}, {
+"frames": [ ExtResource( 98 ), ExtResource( 81 ), ExtResource( 83 ), ExtResource( 58 ), ExtResource( 55 ), ExtResource( 54 ), ExtResource( 59 ), ExtResource( 60 ) ],
+"loop": true,
+"name": "jetpack",
+"speed": 16.0
+} ]
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 101 ), ExtResource( 99 ), ExtResource( 100 ) ],
+"loop": true,
+"name": "vroom",
+"speed": 12.0
+} ]
+
+[sub_resource type="AtlasTexture" id=6]
+flags = 4
+atlas = ExtResource( 104 )
+region = Rect2( 0, 0, 501, 101 )
+
+[sub_resource type="AtlasTexture" id=7]
+flags = 4
+atlas = ExtResource( 104 )
+region = Rect2( 501, 0, 501, 101 )
+
+[sub_resource type="AtlasTexture" id=8]
+flags = 4
+atlas = ExtResource( 104 )
+region = Rect2( 1002, 0, 501, 101 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 4
+atlas = ExtResource( 104 )
+region = Rect2( 1503, 0, 501, 101 )
+
+[sub_resource type="AtlasTexture" id=10]
+flags = 4
+atlas = ExtResource( 104 )
+region = Rect2( 2004, 0, 501, 101 )
+
+[sub_resource type="SpriteFrames" id=11]
+animations = [ {
+"frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ) ],
+"loop": true,
+"name": "default",
+"speed": 12.0
+} ]
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Panda:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( -128, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("Panda:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 8, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Panda:animation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ "walk" ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Panda:playing")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Rocket:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/5/type = "bezier"
+tracks/5/path = NodePath("Rocket:scale:x")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"points": PoolRealArray( 0.1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/6/type = "bezier"
+tracks/6/path = NodePath("Rocket:rotation_degrees")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Rocket:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 272, 16 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Rocket:scale")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.2, 0.2 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Panda:rotation_degrees")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ -720.0 ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Panda:position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -336, 224 ) ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("CanvasLayer/Control/Button:modulate")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Title:modulate")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("CanvasLayer/Control/TextureRect/After:modulate")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "enter"
+length = 10.0
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("Panda:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( -128, -0.25, 0, 0.25, 0, 200, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 2.5 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("Panda:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 8, -0.25, 0, 0.25, 0, 8, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 2.5 )
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Panda:animation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 2.5, 4.1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ "walk", "idle", "shot" ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Panda:playing")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Rocket:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 4.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Rocket:vroom")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 4.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Rocket:scale")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 4.1, 4.8 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.1, 0.1 ), Vector2( 0.2, 0.2 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "yeet_player"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("Panda:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 200, 8 ), Vector2( -336, 100 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Panda:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, -360.0 ]
+}
+
+[sub_resource type="StyleBoxFlat" id=12]
+bg_color = Color( 0, 0.462745, 1, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 1, 0.560784, 0, 1 )
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color( 1, 0.560784, 0, 0.815686 )
+shadow_size = 32
+shadow_offset = Vector2( 0, -10 )
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0, 0.317647, 0.682353, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 1, 0.560784, 0, 1 )
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color( 1, 0.560784, 0, 0.815686 )
+shadow_size = 32
+shadow_offset = Vector2( 0, -10 )
+
+[sub_resource type="DynamicFont" id=14]
+size = 69
+font_data = ExtResource( 105 )
+
+[sub_resource type="Theme" id=15]
+default_font = SubResource( 14 )
+Button/styles/focus = SubResource( 12 )
+Button/styles/hover = SubResource( 12 )
+Button/styles/normal = SubResource( 12 )
+Button/styles/pressed = SubResource( 13 )
+
+[node name="Titlescreen" type="Node2D"]
+position = Vector2( 24, 480 )
+script = ExtResource( 103 )
+
+[node name="Panda" type="AnimatedSprite" parent="."]
+position = Vector2( -128, 8 )
+rotation = -12.5664
+scale = Vector2( 0.5, 0.5 )
+z_index = 1
+frames = SubResource( 1 )
+animation = "walk"
+frame = 10
+playing = true
+
+[node name="Rocket" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 272, 16 )
+scale = Vector2( 0.1, 0.2 )
+frames = SubResource( 4 )
+animation = "vroom"
+frame = 1
+playing = true
+script = ExtResource( 102 )
+speed = 600
+target = NodePath("../RocketTarget")
+
+[node name="Title" type="AnimatedSprite" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 616, -296 )
+scale = Vector2( 1.61776, 1.68812 )
+frames = SubResource( 11 )
+playing = true
+
+[node name="EndExplosionPos" type="Position2D" parent="."]
+position = Vector2( 1272, 544 )
+
+[node name="RocketTarget" type="Node2D" parent="."]
+position = Vector2( 456, -376 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 2 )
+anims/enter = SubResource( 3 )
+anims/yeet_player = SubResource( 5 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = SubResource( 15 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 7
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="After" type="TextureRect" parent="CanvasLayer/Control/TextureRect"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 106 )
+expand = true
+stretch_mode = 7
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button" type="Button" parent="CanvasLayer/Control"]
+modulate = Color( 1, 1, 1, 0 )
+anchor_left = 0.337
+anchor_top = 0.533
+anchor_right = 0.662
+anchor_bottom = 0.678
+margin_left = 0.639984
+margin_top = 0.23996
+margin_right = 0.639893
+margin_bottom = -0.160034
+focus_mode = 0
+enabled_focus_mode = 0
+text = "PLAY"
+
+[node name="Explosions" type="Node" parent="."]
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="FinalExplosion" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 107 )
+volume_db = 10.0
+
+[node name="Reveal" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 108 )
+
+[node name="FireSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 109 )
+volume_db = -30.0
+
+[connection signal="pressed" from="CanvasLayer/Control/Button" to="." method="_on_StartButton_pressed"]
